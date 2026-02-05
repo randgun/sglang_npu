@@ -57,3 +57,7 @@ iPFSEnable = 0
 iParameter = 0
 iIKESADuration = 86400
 iIPSecSADuration = 3600
+
+https://gitcode.com/y30044005/msmodelslim/blob/develop/msmodelslim/model/glm4_moe/model_adapter.py
+
+ASCEND_RT_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 msmodelslim quant --model_path /datadisk/models_weight/GLM-4.7/ --save_path /datadisk/model_quant/GLM-4.7-w8a8-mtp --device npu:0,1,2,3,4,5,6,7 --model_type GLM-4.7 --config_path msmodelslim/lab_practice/glm4_moe/glm4_7_moe-w8a8-v1.yaml --trust_remote_code True
