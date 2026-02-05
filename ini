@@ -1,0 +1,59 @@
+[GLOBAL]
+iConnectionType = 2
+iFirstConnect = 0
+acDescription = 
+
+[IPSECVPN]
+acLNSServerIP = 1.203.156.179
+iIPSecEnable = 1
+iIPSecAuthMode = 1
+acPreSharedKey = 93D1554CADB60B032D87A347E7501FD8EEFEA2DE043D8536D3EE2C33DEAA6427FFB6DE49A08DFAC770C9CEC70BA4368836C94B83A2D272E78BB86DB47D889E5A43C7535E03C08ECB57F13FB286188D957E9B06EF359B61169BA372A4F838D88738E9FC83DE45C91ADA86E87A0C07482133E44DE0EC22FAAC74EA8F8B9E3F6D7502CAE9A53C8504BE2D694F4D960CE0D4322749C45F49E887EFB66A15EB2D61D2
+
+[L2TP]
+acTunnelName = lns
+iL2tpAuthMode = 1
+iL2tpEnable = 0
+acTunnelPwd = 
+
+[ROUTER]
+iRouterEnable = 1
+acDNSSuffix = 
+iRouterPairNum = 5
+ulIP[0] = 172.16.0.0
+ulMask[0] = 255.255.0.0
+ulIP[1] = 172.21.0.0
+ulMask[1] = 255.255.0.0
+ulIP[2] = 172.23.0.0
+ulMask[2] = 255.255.0.0
+
+ulIP[3] = 172.18.0.0
+ulMask[3] = 255.255.0.0
+ulIP[4] = 172.19.0.0
+ulMask[4] = 255.255.0.0
+[IPSEC]
+acIPSecServerIP = 
+iLNSServerEnable = 1
+iEncapsulationMode = 1
+iSecurityProtocol = 0
+iAHAuthAlgo = 0
+iESPAuthAlgo = 524288
+iESPEncryAlgo = 1073750016
+
+[IKE]
+acLocalGatewayName = 
+acRemoteGatewayName = 
+iAuthAlgo = 4
+iEncryAlgo = 10
+iExchangeMode = 2
+iIDType = 0
+iDHGroup = 2
+
+[IKEADVANCED]
+iSendKeepAliveEnable = 0
+iSendKeepAliveTime = 0
+iRecKeepAliveEnable = 0
+iRecKeepAliveTime = 0
+iPFSEnable = 0
+iParameter = 0
+iIKESADuration = 86400
+iIPSecSADuration = 3600
