@@ -1,3 +1,6 @@
+
+https://gitcode.com/li_ting/cann-recipes-infer-dsv4-W4A8/tree/master/models/deepseek-v4/utils
+python convert_model_dsv4.py --input_fp8_hf_path /data/models/Deepseek-v4-pro/ --output_hf_path ./tmp --quant_type w4a8-int
 # coding=utf-8
 # Adapted from
 # https://gitee.com/ascend/ModelZoo-PyTorch/blob/master/MindIE/LLM/DeepSeek/DeepSeek-V2/NPU_inference/fp8_cast_bf16.py
