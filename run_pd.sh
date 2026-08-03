@@ -72,8 +72,6 @@ do
         export SGLANG_ZBAL_BOOTSTRAP_URL="tcp://192.168.25.209:14699"
         # zbccl if support graph   [m~Hneed custom pta   [m~I
         export ZBAL_ENABLE_GRAPH=1
-	# 强制负载均衡
-	#export SGLANG_SIMULATE_ROUND_ROBIN_EXPERTS=1
 
         python3 -m sglang.launch_server --model-path ${MODEL_PATH} \
             --page-size 128 \
@@ -86,7 +84,7 @@ do
             --disaggregation-mode prefill --disaggregation-transfer-backend ascend \
             --disaggregation-bootstrap-port $((8998+$i)) \
             --mem-fraction-static 0.62 \
-            --prefill-max-requests 7 \
+            --prefill-max-requests 6 \
             --max-prefill-tokens 70000 \
             --chunked-prefill-size -1 \
             --max-running-requests 112 \
@@ -96,7 +94,9 @@ do
             --kv-cache-dtype bfloat16 \
             --disable-cuda-graph \
             --disable-radix-cache \
-	    --load-balance-method round_robin
+	        --load-balance-method round_robin \
+            --ep-dispatch-algorithm static --init-expert-location /home/cjr/eplb_prefill_heat/pd_prefill_0720.pt \
+
 
         exit 1
     fi
@@ -176,3 +176,8 @@ python3 -m sglang.bench_serving \
     --disable-ignore-eos \
     --random-range-ratio 1 \
     --warmup-requests 0
+
+#--ep-dispatch-algorithm static --init-expert-location /data/cjr/eplb_prefill_heat/expert_distribution_recorder_1784515249.206882.pt \
+#--expert-distribution-recorder-buffer-size 2048 \
+#--eplb-rebalance-num-iterations 2048 \
+#--expert-distribution-recorder-mode stat
