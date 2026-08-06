@@ -1,1 +1,506 @@
-1
+[2026-08-06 02:31:48 DP7 TP7 EP7] [SWA_LEAK_TRACE] release_kv_cache: rid=467285a356054cbb9271555e39af2d6a, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP7 TP7 EP7] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=467285a356054cbb9271555e39af2d6a, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP7 TP7 EP7] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP1 TP1 EP1] [SWA_LEAK_TRACE] release_kv_cache: rid=0dd2bc2b83c04cb4808e9ddd1554c19e, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP10 TP10 EP10] [SWA_LEAK_TRACE] release_kv_cache: rid=28e7c03ac4174489b1e9a4a353072e5e, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP4 TP4 EP4] [SWA_LEAK_TRACE] release_kv_cache: rid=62797154fc7b44ca974d2167c4c0d926, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP1 TP1 EP1] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=0dd2bc2b83c04cb4808e9ddd1554c19e, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP10 TP10 EP10] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=28e7c03ac4174489b1e9a4a353072e5e, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=62797154fc7b44ca974d2167c4c0d926, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP5 TP5 EP5] [SWA_LEAK_TRACE] release_kv_cache: rid=536b2425e01b4687ad15fba5540672ae, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] release_kv_cache: rid=02ae660b43e3497bbe0a0ee65486c9aa, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP9 TP9 EP9] [SWA_LEAK_TRACE] release_kv_cache: rid=6263bf7162aa49389d60013905e82eeb, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=536b2425e01b4687ad15fba5540672ae, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP14 TP14 EP14] [SWA_LEAK_TRACE] release_kv_cache: rid=75e41fbbf6a041d3a773b107ed2b4497, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=02ae660b43e3497bbe0a0ee65486c9aa, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP9 TP9 EP9] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=6263bf7162aa49389d60013905e82eeb, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP12 TP12 EP12] [SWA_LEAK_TRACE] release_kv_cache: rid=9df074213e584220a0cc6748ed6300f9, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP13 TP13 EP13] [SWA_LEAK_TRACE] release_kv_cache: rid=1ad5ca4f632241e3abda0a7b28489de0, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP14 TP14 EP14] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=75e41fbbf6a041d3a773b107ed2b4497, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP11 TP11 EP11] [SWA_LEAK_TRACE] release_kv_cache: rid=a149844adcfe49f387c89d2ef52b5933, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP13 TP13 EP13] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=1ad5ca4f632241e3abda0a7b28489de0, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP12 TP12 EP12] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=9df074213e584220a0cc6748ed6300f9, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP11 TP11 EP11] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=a149844adcfe49f387c89d2ef52b5933, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP0 TP0 EP0] [SWA_LEAK_TRACE] release_kv_cache: rid=caa1b88bad264846bf9b236af56074b5, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP3 TP3 EP3] [SWA_LEAK_TRACE] release_kv_cache: rid=16279633f1c248f0806567c74f108003, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP8 TP8 EP8] [SWA_LEAK_TRACE] release_kv_cache: rid=23bf88355a70448985f7d53dac4a309e, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP6 TP6 EP6] [SWA_LEAK_TRACE] release_kv_cache: rid=ae720f68187d4cd4b68be83d1a4e5256, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=16279633f1c248f0806567c74f108003, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP0 TP0 EP0] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=caa1b88bad264846bf9b236af56074b5, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP8 TP8 EP8] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=23bf88355a70448985f7d53dac4a309e, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=ae720f68187d4cd4b68be83d1a4e5256, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP15 TP15 EP15] [SWA_LEAK_TRACE] release_kv_cache: rid=e5399e841a1641ed8cec1c6eaad53bfc, is_insert=True, effective_kv_committed_len=4, cache_protected_len=0, kv_allocated_len=4, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:31:48 DP15 TP15 EP15] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=e5399e841a1641ed8cec1c6eaad53bfc, is_insert=False, kv_len_to_handle=4, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:31:48 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP10 TP10 EP10] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP1 TP1 EP1] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP11 TP11 EP11] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP9 TP9 EP9] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP8 TP8 EP8] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP13 TP13 EP13] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP12 TP12 EP12] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP14 TP14 EP14] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP0 TP0 EP0] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:31:48 DP15 TP15 EP15] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:32:42 DP0 TP0 EP0] [SWA_LEAK_TRACE] release_kv_cache: rid=HEALTH_CHECK_9003ee54b2a64fbebba69014ed914f08, is_insert=True, effective_kv_committed_len=1, cache_protected_len=0, kv_allocated_len=1, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:32:42 DP0 TP0 EP0] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=HEALTH_CHECK_9003ee54b2a64fbebba69014ed914f08, is_insert=False, kv_len_to_handle=1, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:32:42 DP0 TP0 EP0] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:33:42 DP1 TP1 EP1] [SWA_LEAK_TRACE] release_kv_cache: rid=HEALTH_CHECK_5f598fb2279d42eba7300f55536ee76e, is_insert=True, effective_kv_committed_len=1, cache_protected_len=0, kv_allocated_len=1, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=True
+[2026-08-06 02:33:42 DP1 TP1 EP1] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=HEALTH_CHECK_5f598fb2279d42eba7300f55536ee76e, is_insert=False, kv_len_to_handle=1, cache_protected_len=0, swa_evictable=0, swa_protected=0, swa_available=84480
+[2026-08-06 02:33:42 DP1 TP1 EP1] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=0, swa_protected=0, swa_available=84608
+[2026-08-06 02:33:44 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=0, token_ids_len=4096, swa_evictable=0, swa_protected=0, swa_available=80512
+[2026-08-06 02:33:44 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:44 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 3968
+[2026-08-06 02:33:44 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 4096
+[2026-08-06 02:33:44 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=0, page_aligned_len=4096, swa_evictable=4096, swa_available=80512
+[2026-08-06 02:33:44 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 3968, protected -> 128
+[2026-08-06 02:33:44 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=4096, len_new_indices=4096, swa_evictable=3968, swa_protected=128, swa_available=80512
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=4096, token_ids_len=8192, swa_evictable=3968, swa_protected=128, swa_available=76416
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 7936
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 8064
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=4096, page_aligned_len=8192, swa_evictable=8064, swa_available=76416
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 8192, protected -> 0
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 8064, protected -> 128
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=8192, len_new_indices=8192, swa_evictable=8064, swa_protected=128, swa_available=76416
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=8192, token_ids_len=12288, swa_evictable=8064, swa_protected=128, swa_available=72320
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 12032
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 12160
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=8192, page_aligned_len=12288, swa_evictable=12160, swa_available=72320
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 12288, protected -> 0
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 12160, protected -> 128
+[2026-08-06 02:33:45 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=12288, len_new_indices=12288, swa_evictable=12160, swa_protected=128, swa_available=72320
+[2026-08-06 02:33:46 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=12288, token_ids_len=16384, swa_evictable=12160, swa_protected=128, swa_available=68224
+[2026-08-06 02:33:46 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:46 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 16128
+[2026-08-06 02:33:46 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 16256
+[2026-08-06 02:33:46 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=12288, page_aligned_len=16384, swa_evictable=16256, swa_available=68224
+[2026-08-06 02:33:46 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 16384, protected -> 0
+[2026-08-06 02:33:46 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 16256, protected -> 128
+[2026-08-06 02:33:46 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=16384, len_new_indices=16384, swa_evictable=16256, swa_protected=128, swa_available=68224
+[2026-08-06 02:33:47 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=16384, token_ids_len=20480, swa_evictable=16256, swa_protected=128, swa_available=64128
+[2026-08-06 02:33:47 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:47 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 20224
+[2026-08-06 02:33:47 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 20352
+[2026-08-06 02:33:47 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=16384, page_aligned_len=20480, swa_evictable=20352, swa_available=64128
+[2026-08-06 02:33:47 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 20480, protected -> 0
+[2026-08-06 02:33:47 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 20352, protected -> 128
+[2026-08-06 02:33:47 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=20480, len_new_indices=20480, swa_evictable=20352, swa_protected=128, swa_available=64128
+[2026-08-06 02:33:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=20480, token_ids_len=24576, swa_evictable=20352, swa_protected=128, swa_available=60032
+[2026-08-06 02:33:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 24320
+[2026-08-06 02:33:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 24448
+[2026-08-06 02:33:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=20480, page_aligned_len=24576, swa_evictable=24448, swa_available=60032
+[2026-08-06 02:33:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 24576, protected -> 0
+[2026-08-06 02:33:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 24448, protected -> 128
+[2026-08-06 02:33:48 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=24576, len_new_indices=24576, swa_evictable=24448, swa_protected=128, swa_available=60032
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=24576, token_ids_len=28672, swa_evictable=24448, swa_protected=128, swa_available=55936
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 28416
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 28544
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=24576, page_aligned_len=28672, swa_evictable=28544, swa_available=55936
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 28672, protected -> 0
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 28544, protected -> 128
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=28672, len_new_indices=28672, swa_evictable=28544, swa_protected=128, swa_available=55936
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=28672, token_ids_len=32768, swa_evictable=28544, swa_protected=128, swa_available=51840
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 32512
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 32640
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=28672, page_aligned_len=32768, swa_evictable=32640, swa_available=51840
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 32768, protected -> 0
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 32640, protected -> 128
+[2026-08-06 02:33:49 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=32768, len_new_indices=32768, swa_evictable=32640, swa_protected=128, swa_available=51840
+[2026-08-06 02:33:50 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=32768, token_ids_len=36864, swa_evictable=32640, swa_protected=128, swa_available=47744
+[2026-08-06 02:33:50 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:50 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 36608
+[2026-08-06 02:33:50 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 36736
+[2026-08-06 02:33:50 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=32768, page_aligned_len=36864, swa_evictable=36736, swa_available=47744
+[2026-08-06 02:33:50 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 36864, protected -> 0
+[2026-08-06 02:33:50 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 36736, protected -> 128
+[2026-08-06 02:33:50 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=36864, len_new_indices=36864, swa_evictable=36736, swa_protected=128, swa_available=47744
+[2026-08-06 02:33:51 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=36864, token_ids_len=40960, swa_evictable=36736, swa_protected=128, swa_available=43648
+[2026-08-06 02:33:51 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:51 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 40704
+[2026-08-06 02:33:51 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 40832
+[2026-08-06 02:33:51 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=36864, page_aligned_len=40960, swa_evictable=40832, swa_available=43648
+[2026-08-06 02:33:51 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 40960, protected -> 0
+[2026-08-06 02:33:51 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 40832, protected -> 128
+[2026-08-06 02:33:51 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=40960, len_new_indices=40960, swa_evictable=40832, swa_protected=128, swa_available=43648
+[2026-08-06 02:33:52 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=40960, token_ids_len=45056, swa_evictable=40832, swa_protected=128, swa_available=39552
+[2026-08-06 02:33:52 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:52 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 44800
+[2026-08-06 02:33:52 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 44928
+[2026-08-06 02:33:52 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=40960, page_aligned_len=45056, swa_evictable=44928, swa_available=39552
+[2026-08-06 02:33:52 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 45056, protected -> 0
+[2026-08-06 02:33:52 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 44928, protected -> 128
+[2026-08-06 02:33:52 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=45056, len_new_indices=45056, swa_evictable=44928, swa_protected=128, swa_available=39552
+[2026-08-06 02:33:53 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=45056, token_ids_len=49152, swa_evictable=44928, swa_protected=128, swa_available=35456
+[2026-08-06 02:33:53 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:53 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 48896
+[2026-08-06 02:33:53 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 49024
+[2026-08-06 02:33:53 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=45056, page_aligned_len=49152, swa_evictable=49024, swa_available=35456
+[2026-08-06 02:33:53 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 49152, protected -> 0
+[2026-08-06 02:33:53 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 49024, protected -> 128
+[2026-08-06 02:33:53 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=49152, len_new_indices=49152, swa_evictable=49024, swa_protected=128, swa_available=35456
+[2026-08-06 02:33:54 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=49152, token_ids_len=53248, swa_evictable=49024, swa_protected=128, swa_available=31360
+[2026-08-06 02:33:54 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:54 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 52992
+[2026-08-06 02:33:54 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 53120
+[2026-08-06 02:33:54 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=49152, page_aligned_len=53248, swa_evictable=53120, swa_available=31360
+[2026-08-06 02:33:54 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 53248, protected -> 0
+[2026-08-06 02:33:54 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 53120, protected -> 128
+[2026-08-06 02:33:54 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=53248, len_new_indices=53248, swa_evictable=53120, swa_protected=128, swa_available=31360
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=53248, token_ids_len=57344, swa_evictable=53120, swa_protected=128, swa_available=27264
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 57088
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 57216
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=53248, page_aligned_len=57344, swa_evictable=57216, swa_available=27264
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 57344, protected -> 0
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 57216, protected -> 128
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=57344, len_new_indices=57344, swa_evictable=57216, swa_protected=128, swa_available=27264
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=57344, token_ids_len=61440, swa_evictable=57216, swa_protected=128, swa_available=23168
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 61184
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 61312
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=57344, page_aligned_len=61440, swa_evictable=61312, swa_available=23168
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 61440, protected -> 0
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 61312, protected -> 128
+[2026-08-06 02:33:55 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=61440, len_new_indices=61440, swa_evictable=61312, swa_protected=128, swa_available=23168
+[2026-08-06 02:33:56 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=61440, token_ids_len=65536, swa_evictable=61312, swa_protected=128, swa_available=19072
+[2026-08-06 02:33:56 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:56 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 65280
+[2026-08-06 02:33:56 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 65408
+[2026-08-06 02:33:56 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=61440, page_aligned_len=65536, swa_evictable=65408, swa_available=19072
+[2026-08-06 02:33:56 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 65536, protected -> 0
+[2026-08-06 02:33:56 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 65408, protected -> 128
+[2026-08-06 02:33:56 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=65536, len_new_indices=65536, swa_evictable=65408, swa_protected=128, swa_available=19072
+[2026-08-06 02:33:57 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=65536, token_ids_len=69632, swa_evictable=65408, swa_protected=128, swa_available=14976
+[2026-08-06 02:33:57 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:57 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 69376
+[2026-08-06 02:33:57 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 69504
+[2026-08-06 02:33:57 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=65536, page_aligned_len=69632, swa_evictable=69504, swa_available=14976
+[2026-08-06 02:33:57 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 69632, protected -> 0
+[2026-08-06 02:33:57 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 69504, protected -> 128
+[2026-08-06 02:33:57 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=69632, len_new_indices=69632, swa_evictable=69504, swa_protected=128, swa_available=14976
+[2026-08-06 02:33:58 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=69632, token_ids_len=73728, swa_evictable=69504, swa_protected=128, swa_available=10880
+[2026-08-06 02:33:58 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:58 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 73472
+[2026-08-06 02:33:58 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 73600
+[2026-08-06 02:33:58 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=69632, page_aligned_len=73728, swa_evictable=73600, swa_available=10880
+[2026-08-06 02:33:58 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 73728, protected -> 0
+[2026-08-06 02:33:58 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 73600, protected -> 128
+[2026-08-06 02:33:58 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=73728, len_new_indices=73728, swa_evictable=73600, swa_protected=128, swa_available=10880
+[2026-08-06 02:33:59 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=73728, token_ids_len=77824, swa_evictable=73600, swa_protected=128, swa_available=6784
+[2026-08-06 02:33:59 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:33:59 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 77568
+[2026-08-06 02:33:59 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 77696
+[2026-08-06 02:33:59 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=73728, page_aligned_len=77824, swa_evictable=77696, swa_available=6784
+[2026-08-06 02:33:59 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 77824, protected -> 0
+[2026-08-06 02:33:59 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 77696, protected -> 128
+[2026-08-06 02:33:59 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=77824, len_new_indices=77824, swa_evictable=77696, swa_protected=128, swa_available=6784
+[2026-08-06 02:34:00 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=77824, token_ids_len=81920, swa_evictable=77696, swa_protected=128, swa_available=2688
+[2026-08-06 02:34:00 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:00 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81664
+[2026-08-06 02:34:00 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81792
+[2026-08-06 02:34:00 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=77824, page_aligned_len=81920, swa_evictable=81792, swa_available=2688
+[2026-08-06 02:34:00 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 81920, protected -> 0
+[2026-08-06 02:34:00 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81792, protected -> 128
+[2026-08-06 02:34:00 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=81920, len_new_indices=81920, swa_evictable=81792, swa_protected=128, swa_available=2688
+[2026-08-06 02:34:00 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:01 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=81920, token_ids_len=86016, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:01 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:01 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:01 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:01 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=81920, page_aligned_len=86016, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:01 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:01 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:01 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=86016, len_new_indices=86016, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:01 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:01 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:02 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=86016, token_ids_len=90112, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:02 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:02 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:02 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:02 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=86016, page_aligned_len=90112, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:02 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:02 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:02 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=90112, len_new_indices=90112, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:02 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:02 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:03 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=90112, token_ids_len=94208, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:03 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:03 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:03 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:03 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=90112, page_aligned_len=94208, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:03 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:03 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:03 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=94208, len_new_indices=94208, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:03 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:03 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:04 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=94208, token_ids_len=98304, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:04 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:04 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:04 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:04 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=94208, page_aligned_len=98304, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:04 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:04 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:04 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=98304, len_new_indices=98304, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:04 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:04 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:05 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=98304, token_ids_len=102400, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:05 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:05 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:05 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:05 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=98304, page_aligned_len=102400, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:05 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:05 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:05 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=102400, len_new_indices=102400, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:05 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:05 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:06 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=102400, token_ids_len=106496, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:06 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:06 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:06 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:06 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=102400, page_aligned_len=106496, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:06 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:06 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:06 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=106496, len_new_indices=106496, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:06 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:06 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:07 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=106496, token_ids_len=110592, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:07 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:07 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:07 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:07 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=106496, page_aligned_len=110592, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:07 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:07 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:07 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=110592, len_new_indices=110592, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:07 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:07 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:08 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=110592, token_ids_len=114688, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:08 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:08 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:08 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:08 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=110592, page_aligned_len=114688, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:08 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:08 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:08 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=114688, len_new_indices=114688, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:08 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:08 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:09 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=114688, token_ids_len=118784, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:09 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:09 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:09 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:09 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=114688, page_aligned_len=118784, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:09 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:09 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:09 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=118784, len_new_indices=118784, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:09 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:09 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:10 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=118784, token_ids_len=122880, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:10 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:10 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:10 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:10 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=118784, page_aligned_len=122880, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:10 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:10 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:10 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=122880, len_new_indices=122880, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:10 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:10 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:11 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=True, cache_protected_len=122880, token_ids_len=126976, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:11 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:11 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:11 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:11 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=122880, page_aligned_len=126976, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:11 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:11 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:11 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=126976, len_new_indices=126976, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:11 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 128, -> 81792
+[2026-08-06 02:34:11 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp evict_node: evictable[swa] -= 3968, -> 77824
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=85d185342270495e950303ac0d646ce2, chunked=False, cache_protected_len=126976, token_ids_len=131072, swa_evictable=77824, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 81792
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 81920
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=126976, page_aligned_len=131072, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 81920, protected -> 128
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=131072, len_new_indices=131072, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] release_kv_cache: rid=85d185342270495e950303ac0d646ce2, is_insert=True, effective_kv_committed_len=131072, cache_protected_len=131072, kv_allocated_len=131072, swa_evicted_seqlen=0, swa_prefix_lock_released=False, tree_cache_type=UnifiedRadixCache, tree_cache_disabled=False, skip_radix_cache_insert=False
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req ENTER: rid=85d185342270495e950303ac0d646ce2, is_insert=True, kv_len_to_handle=131072, cache_protected_len=131072, swa_evictable=81920, swa_protected=128, swa_available=2560
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req AFTER insert: prefix_len=131072, page_aligned_len=131072, effective_cache_len=131072, swa_evictable=81920, swa_available=2560
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req AFTER free_segments: n_segments=1, swa_available 2560 -> 2560, swa_evictable=81920
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 82048, protected -> 0
+[2026-08-06 02:34:12 DP2 TP2 EP2] [SWA_LEAK_TRACE] UnifiedRC.cache_finished_req EXIT: swa_evictable=82048, swa_protected=0, swa_available=2560
+[2026-08-06 02:34:15 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=2d205570ec2643dc89cb34653be5b1cd, chunked=True, cache_protected_len=0, token_ids_len=4096, swa_evictable=0, swa_protected=0, swa_available=80512
+[2026-08-06 02:34:15 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:15 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 3968
+[2026-08-06 02:34:15 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 4096
+[2026-08-06 02:34:15 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=0, page_aligned_len=4096, swa_evictable=4096, swa_available=80512
+[2026-08-06 02:34:15 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 3968, protected -> 128
+[2026-08-06 02:34:15 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=4096, len_new_indices=4096, swa_evictable=3968, swa_protected=128, swa_available=80512
+[2026-08-06 02:34:16 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=2d205570ec2643dc89cb34653be5b1cd, chunked=True, cache_protected_len=4096, token_ids_len=8192, swa_evictable=3968, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:16 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:16 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 7936
+[2026-08-06 02:34:16 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 8064
+[2026-08-06 02:34:16 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=4096, page_aligned_len=8192, swa_evictable=8064, swa_available=76416
+[2026-08-06 02:34:16 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 8192, protected -> 0
+[2026-08-06 02:34:16 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 8064, protected -> 128
+[2026-08-06 02:34:16 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=8192, len_new_indices=8192, swa_evictable=8064, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:17 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=7fd877dd4ba34da29937730687eb4db9, chunked=True, cache_protected_len=0, token_ids_len=4096, swa_evictable=0, swa_protected=0, swa_available=80512
+[2026-08-06 02:34:17 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=2d205570ec2643dc89cb34653be5b1cd, chunked=True, cache_protected_len=8192, token_ids_len=12288, swa_evictable=8064, swa_protected=128, swa_available=72320
+[2026-08-06 02:34:17 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:17 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:17 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 3968
+[2026-08-06 02:34:17 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 12032
+[2026-08-06 02:34:17 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 4096
+[2026-08-06 02:34:17 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 12160
+[2026-08-06 02:34:17 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=0, page_aligned_len=4096, swa_evictable=4096, swa_available=80512
+[2026-08-06 02:34:17 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=8192, page_aligned_len=12288, swa_evictable=12160, swa_available=72320
+[2026-08-06 02:34:17 DP4 TP4 EP4] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 3968, protected -> 128
+[2026-08-06 02:34:17 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=4096, len_new_indices=4096, swa_evictable=3968, swa_protected=128, swa_available=80512
+[2026-08-06 02:34:17 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 12288, protected -> 0
+[2026-08-06 02:34:17 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 12160, protected -> 128
+[2026-08-06 02:34:17 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=12288, len_new_indices=12288, swa_evictable=12160, swa_protected=128, swa_available=72320
+[2026-08-06 02:34:18 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=cf9ca433f06145d7b0eb6288fa559a28, chunked=True, cache_protected_len=0, token_ids_len=4096, swa_evictable=0, swa_protected=0, swa_available=80512
+[2026-08-06 02:34:18 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=e7aada49b61d49ef923498f11423eff6, chunked=True, cache_protected_len=0, token_ids_len=4096, swa_evictable=0, swa_protected=0, swa_available=80512
+[2026-08-06 02:34:18 DP5 TP5 EP5] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:18 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=2d205570ec2643dc89cb34653be5b1cd, chunked=True, cache_protected_len=12288, token_ids_len=16384, swa_evictable=12160, swa_protected=128, swa_available=68224
+[2026-08-06 02:34:18 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=7fd877dd4ba34da29937730687eb4db9, chunked=True, cache_protected_len=4096, token_ids_len=8192, swa_evictable=3968, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:18 DP5 TP5 EP5] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 3968
+[2026-08-06 02:34:18 DP6 TP6 EP6] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:18 DP5 TP5 EP5] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 4096
+[2026-08-06 02:34:18 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=0, page_aligned_len=4096, swa_evictable=4096, swa_available=80512
+[2026-08-06 02:34:18 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:18 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:18 DP6 TP6 EP6] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 3968
+[2026-08-06 02:34:18 DP5 TP5 EP5] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 3968, protected -> 128
+[2026-08-06 02:34:18 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=4096, len_new_indices=4096, swa_evictable=3968, swa_protected=128, swa_available=80512
+[2026-08-06 02:34:18 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 16128
+[2026-08-06 02:34:18 DP6 TP6 EP6] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 4096
+[2026-08-06 02:34:18 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 16256
+[2026-08-06 02:34:18 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 7936
+[2026-08-06 02:34:18 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=0, page_aligned_len=4096, swa_evictable=4096, swa_available=80512
+[2026-08-06 02:34:18 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=12288, page_aligned_len=16384, swa_evictable=16256, swa_available=68224
+[2026-08-06 02:34:18 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 8064
+[2026-08-06 02:34:18 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=4096, page_aligned_len=8192, swa_evictable=8064, swa_available=76416
+[2026-08-06 02:34:18 DP6 TP6 EP6] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 3968, protected -> 128
+[2026-08-06 02:34:18 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=4096, len_new_indices=4096, swa_evictable=3968, swa_protected=128, swa_available=80512
+[2026-08-06 02:34:18 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 16384, protected -> 0
+[2026-08-06 02:34:18 DP4 TP4 EP4] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 8192, protected -> 0
+[2026-08-06 02:34:18 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 16256, protected -> 128
+[2026-08-06 02:34:18 DP4 TP4 EP4] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 8064, protected -> 128
+[2026-08-06 02:34:18 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=16384, len_new_indices=16384, swa_evictable=16256, swa_protected=128, swa_available=68224
+[2026-08-06 02:34:18 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=8192, len_new_indices=8192, swa_evictable=8064, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:19 DP8 TP8 EP8] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=0027d61d06a44e9594f2582e8e860a3d, chunked=True, cache_protected_len=0, token_ids_len=4096, swa_evictable=0, swa_protected=0, swa_available=80512
+[2026-08-06 02:34:19 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=7fd877dd4ba34da29937730687eb4db9, chunked=True, cache_protected_len=8192, token_ids_len=12288, swa_evictable=8064, swa_protected=128, swa_available=72320
+[2026-08-06 02:34:19 DP8 TP8 EP8] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:19 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=cf9ca433f06145d7b0eb6288fa559a28, chunked=True, cache_protected_len=4096, token_ids_len=8192, swa_evictable=3968, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:19 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=e7aada49b61d49ef923498f11423eff6, chunked=True, cache_protected_len=4096, token_ids_len=8192, swa_evictable=3968, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:19 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=2d205570ec2643dc89cb34653be5b1cd, chunked=True, cache_protected_len=16384, token_ids_len=20480, swa_evictable=16256, swa_protected=128, swa_available=64128
+[2026-08-06 02:34:19 DP8 TP8 EP8] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 3968
+[2026-08-06 02:34:19 DP8 TP8 EP8] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 4096
+[2026-08-06 02:34:19 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:19 DP7 TP7 EP7] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=c28c2f4d8a164828a504322154a1e644, chunked=True, cache_protected_len=0, token_ids_len=4096, swa_evictable=0, swa_protected=0, swa_available=80512
+[2026-08-06 02:34:19 DP8 TP8 EP8] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=0, page_aligned_len=4096, swa_evictable=4096, swa_available=80512
+[2026-08-06 02:34:19 DP5 TP5 EP5] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:19 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 12032
+[2026-08-06 02:34:19 DP8 TP8 EP8] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 3968, protected -> 128
+[2026-08-06 02:34:19 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 12160
+[2026-08-06 02:34:19 DP7 TP7 EP7] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:19 DP8 TP8 EP8] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=4096, len_new_indices=4096, swa_evictable=3968, swa_protected=128, swa_available=80512
+[2026-08-06 02:34:19 DP5 TP5 EP5] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 7936
+[2026-08-06 02:34:19 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=8192, page_aligned_len=12288, swa_evictable=12160, swa_available=72320
+[2026-08-06 02:34:19 DP6 TP6 EP6] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:19 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:19 DP5 TP5 EP5] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 8064
+[2026-08-06 02:34:19 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=4096, page_aligned_len=8192, swa_evictable=8064, swa_available=76416
+[2026-08-06 02:34:19 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 20224
+[2026-08-06 02:34:19 DP7 TP7 EP7] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 3968
+[2026-08-06 02:34:19 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 20352
+[2026-08-06 02:34:19 DP6 TP6 EP6] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 7936
+[2026-08-06 02:34:19 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=16384, page_aligned_len=20480, swa_evictable=20352, swa_available=64128
+[2026-08-06 02:34:19 DP6 TP6 EP6] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 8064
+[2026-08-06 02:34:19 DP7 TP7 EP7] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 4096
+[2026-08-06 02:34:19 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=4096, page_aligned_len=8192, swa_evictable=8064, swa_available=76416
+[2026-08-06 02:34:19 DP7 TP7 EP7] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=0, page_aligned_len=4096, swa_evictable=4096, swa_available=80512
+[2026-08-06 02:34:19 DP4 TP4 EP4] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 12288, protected -> 0
+[2026-08-06 02:34:19 DP4 TP4 EP4] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 12160, protected -> 128
+[2026-08-06 02:34:19 DP5 TP5 EP5] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 8192, protected -> 0
+[2026-08-06 02:34:19 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=12288, len_new_indices=12288, swa_evictable=12160, swa_protected=128, swa_available=72320
+[2026-08-06 02:34:19 DP7 TP7 EP7] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 3968, protected -> 128
+[2026-08-06 02:34:19 DP5 TP5 EP5] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 8064, protected -> 128
+[2026-08-06 02:34:19 DP7 TP7 EP7] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=4096, len_new_indices=4096, swa_evictable=3968, swa_protected=128, swa_available=80512
+[2026-08-06 02:34:19 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=8192, len_new_indices=8192, swa_evictable=8064, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:19 DP6 TP6 EP6] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 8192, protected -> 0
+[2026-08-06 02:34:19 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 20480, protected -> 0
+[2026-08-06 02:34:19 DP6 TP6 EP6] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 8064, protected -> 128
+[2026-08-06 02:34:19 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 20352, protected -> 128
+[2026-08-06 02:34:19 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=8192, len_new_indices=8192, swa_evictable=8064, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:19 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=20480, len_new_indices=20480, swa_evictable=20352, swa_protected=128, swa_available=64128
+[2026-08-06 02:34:20 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=cf9ca433f06145d7b0eb6288fa559a28, chunked=True, cache_protected_len=8192, token_ids_len=12288, swa_evictable=8064, swa_protected=128, swa_available=72320
+[2026-08-06 02:34:20 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=7fd877dd4ba34da29937730687eb4db9, chunked=True, cache_protected_len=12288, token_ids_len=16384, swa_evictable=12160, swa_protected=128, swa_available=68224
+[2026-08-06 02:34:20 DP9 TP9 EP9] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=8bb5a21849a54edeb9ec49925f07a6ca, chunked=True, cache_protected_len=0, token_ids_len=4096, swa_evictable=0, swa_protected=0, swa_available=80512
+[2026-08-06 02:34:20 DP10 TP10 EP10] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=e7f7a29e99084c859e0ab146f1a40c89, chunked=True, cache_protected_len=0, token_ids_len=4096, swa_evictable=0, swa_protected=0, swa_available=80512
+[2026-08-06 02:34:20 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=e7aada49b61d49ef923498f11423eff6, chunked=True, cache_protected_len=8192, token_ids_len=12288, swa_evictable=8064, swa_protected=128, swa_available=72320
+[2026-08-06 02:34:20 DP8 TP8 EP8] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=0027d61d06a44e9594f2582e8e860a3d, chunked=True, cache_protected_len=4096, token_ids_len=8192, swa_evictable=3968, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:20 DP5 TP5 EP5] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:20 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:20 DP9 TP9 EP9] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:20 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=2d205570ec2643dc89cb34653be5b1cd, chunked=True, cache_protected_len=20480, token_ids_len=24576, swa_evictable=20352, swa_protected=128, swa_available=60032
+[2026-08-06 02:34:20 DP8 TP8 EP8] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:20 DP6 TP6 EP6] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:20 DP10 TP10 EP10] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:20 DP5 TP5 EP5] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 12032
+[2026-08-06 02:34:20 DP7 TP7 EP7] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req ENTER: rid=c28c2f4d8a164828a504322154a1e644, chunked=True, cache_protected_len=4096, token_ids_len=8192, swa_evictable=3968, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:20 DP5 TP5 EP5] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 12160
+[2026-08-06 02:34:20 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=8192, page_aligned_len=12288, swa_evictable=12160, swa_available=72320
+[2026-08-06 02:34:20 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 16128
+[2026-08-06 02:34:20 DP8 TP8 EP8] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 7936
+[2026-08-06 02:34:20 DP4 TP4 EP4] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 16256
+[2026-08-06 02:34:20 DP6 TP6 EP6] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 12032
+[2026-08-06 02:34:20 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=12288, page_aligned_len=16384, swa_evictable=16256, swa_available=68224
+[2026-08-06 02:34:20 DP8 TP8 EP8] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 8064
+[2026-08-06 02:34:20 DP9 TP9 EP9] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 3968
+[2026-08-06 02:34:20 DP8 TP8 EP8] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=4096, page_aligned_len=8192, swa_evictable=8064, swa_available=76416
+[2026-08-06 02:34:20 DP6 TP6 EP6] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 12160
+[2026-08-06 02:34:20 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=8192, page_aligned_len=12288, swa_evictable=12160, swa_available=72320
+[2026-08-06 02:34:20 DP9 TP9 EP9] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 4096
+[2026-08-06 02:34:20 DP10 TP10 EP10] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 3968
+[2026-08-06 02:34:20 DP7 TP7 EP7] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:20 DP9 TP9 EP9] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=0, page_aligned_len=4096, swa_evictable=4096, swa_available=80512
+[2026-08-06 02:34:20 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC._add_new_node: base_evictable += 4096, -> 4096, swa_evictable=0
+[2026-08-06 02:34:20 DP10 TP10 EP10] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 4096
+[2026-08-06 02:34:20 DP10 TP10 EP10] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=0, page_aligned_len=4096, swa_evictable=4096, swa_available=80512
+[2026-08-06 02:34:20 DP7 TP7 EP7] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 7936
+[2026-08-06 02:34:20 DP7 TP7 EP7] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 8064
+[2026-08-06 02:34:20 DP9 TP9 EP9] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 3968, protected -> 128
+[2026-08-06 02:34:20 DP5 TP5 EP5] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 12288, protected -> 0
+[2026-08-06 02:34:20 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 3968, -> 24320
+[2026-08-06 02:34:20 DP7 TP7 EP7] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=4096, page_aligned_len=8192, swa_evictable=8064, swa_available=76416
+[2026-08-06 02:34:20 DP9 TP9 EP9] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=4096, len_new_indices=4096, swa_evictable=3968, swa_protected=128, swa_available=80512
+[2026-08-06 02:34:20 DP5 TP5 EP5] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 12160, protected -> 128
+[2026-08-06 02:34:20 DP3 TP3 EP3] [SWA_LEAK_TRACE] UTC.store_component_device_value: ct=swa, evictable[swa] += 128, -> 24448
+[2026-08-06 02:34:20 DP5 TP5 EP5] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=12288, len_new_indices=12288, swa_evictable=12160, swa_protected=128, swa_available=72320
+[2026-08-06 02:34:20 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req AFTER insert: prefix_len=20480, page_aligned_len=24576, swa_evictable=24448, swa_available=60032
+[2026-08-06 02:34:20 DP8 TP8 EP8] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 8192, protected -> 0
+[2026-08-06 02:34:20 DP10 TP10 EP10] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 3968, protected -> 128
+[2026-08-06 02:34:20 DP8 TP8 EP8] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 8064, protected -> 128
+[2026-08-06 02:34:20 DP10 TP10 EP10] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=4096, len_new_indices=4096, swa_evictable=3968, swa_protected=128, swa_available=80512
+[2026-08-06 02:34:20 DP4 TP4 EP4] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 16384, protected -> 0
+[2026-08-06 02:34:20 DP8 TP8 EP8] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=8192, len_new_indices=8192, swa_evictable=8064, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:20 DP6 TP6 EP6] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 12288, protected -> 0
+[2026-08-06 02:34:20 DP4 TP4 EP4] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 16256, protected -> 128
+[2026-08-06 02:34:20 DP4 TP4 EP4] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=16384, len_new_indices=16384, swa_evictable=16256, swa_protected=128, swa_available=68224
+[2026-08-06 02:34:20 DP6 TP6 EP6] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 12160, protected -> 128
+[2026-08-06 02:34:20 DP6 TP6 EP6] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=12288, len_new_indices=12288, swa_evictable=12160, swa_protected=128, swa_available=72320
+[2026-08-06 02:34:20 DP7 TP7 EP7] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 8192, protected -> 0
+[2026-08-06 02:34:20 DP7 TP7 EP7] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 8064, protected -> 128
+[2026-08-06 02:34:20 DP7 TP7 EP7] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=8192, len_new_indices=8192, swa_evictable=8064, swa_protected=128, swa_available=76416
+[2026-08-06 02:34:20 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp dec_lock: evictable[swa] += 128, -> 24576, protected -> 0
+[2026-08-06 02:34:20 DP3 TP3 EP3] [SWA_LEAK_TRACE] SWA_comp inc_lock: evictable[swa] -= 128, -> 24448, protected -> 128
+[2026-08-06 02:34:20 DP3 TP3 EP3] [SWA_LEAK_TRACE] UnifiedRC.cache_unfinished_req EXIT: cache_protected_len=24576, len_new_indices=24576, swa_evictable=24448, swa_protected=128, swa_available=60032
